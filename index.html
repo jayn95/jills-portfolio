@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="design.css" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Hamburger Button -->
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <h1 class="gradient-text">MY PORTFOLIO</h1>
+
+    <svg class="hero-name" viewBox="0 0 765 300" aria-label="Your Name">
+    <defs>
+      <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00ffd5" />
+        <stop offset="50%" stop-color="#7c7cff" />
+        <stop offset="100%" stop-color="#ff6ec7" />
+      </linearGradient>
+    </defs>
+
+    <text
+        x="50%"
+        y="15%"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="none"
+        stroke="url(#nameGradient)"
+        stroke-width="2"
+        font-size="101"
+        font-family="Poppins, sans-serif"
+        font-weight="600">
+        MY PORTFOLIO
+    </text>
+
+    <text
+        x="50%"
+        y="50%"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="none"
+        stroke="url(#nameGradient)"
+        stroke-width="2"
+        font-size="101"
+        font-family="Poppins, sans-serif"
+        font-weight="600">
+        MY PORTFOLIO
+    </text>
+
+    <text
+        x="50%"
+        y="85%"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="none"
+        stroke="url(#nameGradient)"
+        stroke-width="2"
+        font-size="101"
+        font-family="Poppins, sans-serif"
+        font-weight="600">
+        MY PORTFOLIO
+    </text>
+    </svg>
+    <div class="home-img"><img src="assets/images/profile.png" alt="My Photo" /></div>
+    <div class="home-image"><img src="assets/images/prof.png" alt="My Photo" /></div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <img src="assets/images/jayn.png" alt="My Photo" />
+
+    <div class="about-text">
+      <div class="full-name">
+        <h2 class="name">JILL</h2>
+        <h2 class="surname">NAVARRA</h2>
+      </div>
+      <h4 class="tagline">Programmer • ML Enthusiast • Web Developer</h4>
+      <p>
+        A versatile and aspiring Computer Science student from West Visayas State University 
+        is dedicated to developing and leveraging technology for addressing real-world challenges.
+        Additionally, application of critical thinking and transformation of conceptual ideas 
+        into functional applications is the goal. 
+      </p>
+      <br>
+      <p>
+        And along with that, is the ability to divulge in the world of arts and design, may it 
+        be in a traditional or digital setup. Through art and design, ideas are brought to life 
+        in ways that evoke emotion, identity, and meaningful connection.
+      </p>
+      <br>
+      <p>
+        That’s me! Your hopeful Coderist and creative artist at your service.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>SKILLS</h2>
+
+    <ul class="skills-list">
+      <li>
+        <img src="assets/images/html-css.png" alt="HTML & CSS" />
+        <div class="skill-text">
+          <h3>HTML & CSS</h3>
+          <p>Responsive layouts, modern CSS, Flexbox, Grid</p>
+        </div>
+      </li>
+      <li>
+        <img src="assets/images/2.png" alt="JavaScript" />
+        <div class="skill-text">
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, async logic</p>
+        </div>
+      </li>
+      <li>
+        <img src="assets/images/3.png" alt="Python" />
+        <div class="skill-text">
+          <h3>Python</h3>
+          <p>Object-oriented programming, data structures, libraries</p>
+        </div>
+      </li>
+      <li>
+        <img src="assets/images/4.png" alt="Machine Learning" />
+        <div class="skill-text">
+          <h3>Machine Learning</h3>
+          <p>Data preprocessing, model training, evaluation</p>
+        </div>
+      </li>
+      <li>
+          <img src="assets/images/5.png" alt="Web Development" />
+          <div class="skill-text">
+            <h3>Web Development</h3>
+            <p>Frontend and backend development, responsive design</p>
+          </div>
+      </li>
+      <li>
+        <img src="assets/images/5.png" alt="Other Skills" />
+        <div class="skill-text">
+          <h3>Other Skills</h3>
+          <p>Version control, teamwork, problem-solving</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects1" id="projects">
+    <h2>PROJECTS</h2>
+
+    <div class="project1-container">
+      <div class="p1-description">
+        <h2 class="tinig">TINIG</h2>
+        <p>
+          Tinig (Dart, Flutter) is an Android Augmentative and Alternative Communication (AAC) application designed to assist individuals with communication difficulties. It provides an intuitive, user-friendly interface that enables users to express needs, emotions, and thoughts through visual and interactive elements, promoting inclusivity, independence, and effective daily communication.
+        </p>
+      </div>
+
+      <div class="project1">
+        <div class="p2-mid"><img src="assets/projects/tinig2.png"></div>
+        <div class="p1-mid"><img src="assets/projects/tinig1.png"></div>
+        <div class="p2-mid"><img src="assets/projects/tinig3.png"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects1">
+    <h2>PROJECTS</h2>
+    <div class="project1-container">
+      <div class="p1-description">
+        <h2 class="deepdent">DEEPDENT</h2>
+        <p>
+          Deepdent (Python, Tensorflow, Dart, FLutter) is a mobile application powered by
+YOLOv8 and U-Net models, developed to detect gingivitis and periodontitis using
+clinical gum images and dental X-rays.
+        </p>
+      </div>
+
+      <div class="project1">
+        <div class="p2-mid"><img src="assets/projects/dp3.png"></div>
+        <div class="p1-mid"><img src="assets/projects/dp1.png"></div>
+        <div class="p2-mid"><img src="assets/projects/dp4.png"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="projects1" id="projects1">
+    <h2>PROJECTS</h2>
+
+    <div class="description">
+      <h2>TINIG</h2>
+      <p>
+        Write a short introduction about yourself here. You can talk about your background,
+        interests, and what you are passionate about in your field.Write a short introduction 
+        about yourself here. You can talk about your background, interests, and what you are 
+        passionate about in your field.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>Short description of the project, what it does, and the technologies used.</p>
+    </div>
+
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>Short description of another project.</p>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <!-- <h2>CONTACTS</h2> -->
+
+    <div class="contact-wrapper">
+      <!-- CV Card -->
+      <div class="cv-card">
+        <div class="cv-text">
+          <h3>Download CV</h3>
+          <img src="assets/images/cv.png" alt="CV Icon" />
+        </div>
+        <a href="assets/Navarra-CV.pdf" download>Click to download</a>
+      </div>
+
+      <div class="nav-card">
+        <div class="nav-text">
+          <h3>Navigate to Sections</h3>
+          <div class="ref">
+            <p>></p>
+            <div class="space"><p>-</p></div>
+            <a href="#home">Home</a>
+          </div>
+          <div class="ref">
+            <p>></p>
+            <div class="space"><p>-</p></div>
+            <a href="#about">About</a>
+          </div>
+          <div class="ref">
+            <p>></p>
+            <div class="space"><p>-</p></div>
+            <a href="#skills">Skills</a>
+          </div>
+          <div class="ref">
+            <p>></p>
+            <div class="space"><p>-</p></div>
+            <a href="#projects">Projects</a>
+          </div>
+          <div class="ref">
+            <p>></p>
+            <div class="space"><p>-</p></div>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Links -->
+      <div class="contact-card">
+        <h3>Contacts</h3>
+        <div class="contact-item">
+          <img src="assets/images/gmail.png" alt="Email" />
+          <span>jill.navarra@wvsu.edu.ph</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="assets/images/gmail.png" alt="Email" />
+          <span>jill.navarra0603@gmail.com</span>
+        </div>
+
+        <div class="contact-item">
+          <img src="assets/images/linkedin.png" alt="LinkedIn" />
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            linkedin.com/in/dummyprofile
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <img src="assets/images/github.png" alt="GitHub" />
+          <a href="https://github.com/jayn95" target="_blank">
+            https://github.com/jayn95
+          </a>
+        </div>
+
+        <div class="contact-item">
+          <img src="assets/images/phone.png" alt="Phone" />
+          <span>+63-961-020-6300</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-wrapper">
+    <div class="contact-divider"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Jill Navarra. All rights reserved.</p>
+  </footer>
+
+</body>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const nav = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+  });
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.remove('active');
+      document.getElementById('menuToggle').classList.remove('active');
+    });
+  });
+
+</script>
+</html>
