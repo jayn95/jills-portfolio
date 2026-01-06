@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
 
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
   <!-- CSS -->
   <link rel="stylesheet" href="design.css" />
 
@@ -15,7 +17,7 @@
 
   <!-- Navigation Bar -->
   <nav class="navbar">
-    <div class="logo">My Portfolio</div>
+    <div class="logo"><img src="assets/images/logo.png" alt="Logo"></div>
 
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
@@ -175,65 +177,118 @@
   <section class="projects1" id="projects">
     <h2>PROJECTS</h2>
 
-    <div class="project1-container">
-      <div class="p1-description">
-        <h2 class="tinig">TINIG</h2>
-        <p>
-          Tinig (Dart, Flutter) is an Android Augmentative and Alternative Communication (AAC) application designed to assist individuals with communication difficulties. It provides an intuitive, user-friendly interface that enables users to express needs, emotions, and thoughts through visual and interactive elements, promoting inclusivity, independence, and effective daily communication.
-        </p>
+    <div class="projects-carousel">
+      <!-- Left arrow -->
+      <button class="arrow left-arrow"><</button>
+
+      <!-- Horizontal scroll wrapper -->
+      <div class="projects-wrapper">
+        <!-- TINIG Project -->
+        <div class="project-card">
+          <div class="project1-container">
+            <div class="p1-description">
+              <br>
+              <br>
+              <br>
+              <br>
+              <h2 class="tinig">TINIG</h2>
+              <p>
+                Tinig (Dart, Flutter) is an Android Augmentative and Alternative Communication (AAC)
+                application designed to assist individuals with communication difficulties. It provides
+                an intuitive, user-friendly interface that enables users to express needs, emotions,
+                and thoughts through visual and interactive elements.
+              </p>
+            </div>
+            <div class="project1">
+              <div class="p2-mid"><img src="assets/projects/tinig2.png" alt="Tinig Screenshot 2"></div>
+              <div class="p1-mid"><img src="assets/projects/tinig1.png" alt="Tinig Screenshot 1"></div>
+              <div class="p2-mid"><img src="assets/projects/tinig3.png" alt="Tinig Screenshot 3"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DEEPDENT Project -->
+        <div class="project-card">
+          <div class="project1-container">
+            <div class="p1-description">
+              <br>
+              <br>
+              <br>
+              <br>
+              <h2 class="deepdent">DEEPDENT</h2>
+              <p>
+                Deepdent (Python, Tensorflow, Dart, Flutter) is a mobile application powered by YOLOv8
+                and U-Net models, developed to detect gingivitis and periodontitis using clinical gum
+                images and dental X-rays.
+              </p>
+            </div>
+            <div class="project1">
+              <div class="p2-mid"><img src="assets/projects/dp3.png" alt="Deepdent Screenshot 2"></div>
+              <div class="p1-mid"><img src="assets/projects/dp1.png" alt="Deepdent Screenshot 1"></div>
+              <div class="p2-mid"><img src="assets/projects/dp4.png" alt="Deepdent Screenshot 3"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more projects -->
+        <!-- CalEb Project -->
+        <div class="project-card3">
+          <div class="project3-container">
+            <div class="p1-description">
+              <h2 class="caleb">CALEB</h2>
+              <p>
+                Caleb (Firebase, Dart, Flutter) is a Vercel-hosted web application that enables WVSU
+students to share and conveniently access a directory of file links for reviewers and
+study resources
+              </p>
+            </div>
+            <div class="project3">
+              <div class="web-top"><img src="assets/projects/calib1.png" alt="Caleb Screenshot 2"></div>
+              <div class="web-bot"><img src="assets/projects/calib2.png" alt="Caleb Screenshot 1"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- DecodeMe Project -->
+        <div class="project-card4">
+          <div class="project4-container">
+            <div class="p1-description">
+              <h2 class="decodeme">DECODE ME</h2>
+              <p>
+                DecodeMe (Python, Dart, Flutter) is an NLP-powered web application hosted on
+  Render, built to analyze user input and provide personalized ICT career
+  recommendations.
+              </p>
+            </div>
+            <div class="project4">
+              <div class="web-top"><img src="assets/projects/dm1.png" alt="Caleb Screenshot 2"></div>
+              <div class="web-bot"><img src="assets/projects/dm2.png" alt="Caleb Screenshot 1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pa Barya Project -->
+        <div class="project-card5">
+          <div class="project4-container">
+            <div class="p1-description">
+              <h2 class="decodeme">PA BARYA</h2>
+              <p>
+                Pa Barya (Python, Tensorflow, HTML, CSS) - a website application that uses YOLOv8
+for detection of Philippine Peso bills with the primary purpose of handling
+denomincation of coin exhange. This can also be furthered implemented on
+machines.
+              </p>
+            </div>
+            <div class="project4">
+              <div class="web-top"><img src="assets/projects/pb1.png" alt="Caleb Screenshot 2"></div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="project1">
-        <div class="p2-mid"><img src="assets/projects/tinig2.png"></div>
-        <div class="p1-mid"><img src="assets/projects/tinig1.png"></div>
-        <div class="p2-mid"><img src="assets/projects/tinig3.png"></div>
-      </div>
+      <!-- Right arrow -->
+      <button class="arrow right-arrow">></button>
     </div>
   </section>
-
-  <section class="projects1">
-    <h2>PROJECTS</h2>
-    <div class="project1-container">
-      <div class="p1-description">
-        <h2 class="deepdent">DEEPDENT</h2>
-        <p>
-          Deepdent (Python, Tensorflow, Dart, FLutter) is a mobile application powered by
-YOLOv8 and U-Net models, developed to detect gingivitis and periodontitis using
-clinical gum images and dental X-rays.
-        </p>
-      </div>
-
-      <div class="project1">
-        <div class="p2-mid"><img src="assets/projects/dp3.png"></div>
-        <div class="p1-mid"><img src="assets/projects/dp1.png"></div>
-        <div class="p2-mid"><img src="assets/projects/dp4.png"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="projects1" id="projects1">
-    <h2>PROJECTS</h2>
-
-    <div class="description">
-      <h2>TINIG</h2>
-      <p>
-        Write a short introduction about yourself here. You can talk about your background,
-        interests, and what you are passionate about in your field.Write a short introduction 
-        about yourself here. You can talk about your background, interests, and what you are 
-        passionate about in your field.
-      </p>
-    </div>
-
-    <div class="project">
-      <h3>Project Title 1</h3>
-      <p>Short description of the project, what it does, and the technologies used.</p>
-    </div>
-
-    <div class="project">
-      <h3>Project Title 2</h3>
-      <p>Short description of another project.</p>
-    </div>
-  </section> -->
 
   <!-- Contact Section -->
   <section class="contact" id="contact">
@@ -246,7 +301,7 @@ clinical gum images and dental X-rays.
           <h3>Download CV</h3>
           <img src="assets/images/cv.png" alt="CV Icon" />
         </div>
-        <a href="assets/Navarra-CV.pdf" download>Click to download</a>
+        <a href="assets/Navarra-Resume.pdf" download>Click to download</a>
       </div>
 
       <div class="nav-card">
@@ -346,5 +401,18 @@ clinical gum images and dental X-rays.
     });
   });
 
+  const wrapper = document.querySelector('.projects-wrapper');
+  const leftArrow = document.querySelector('.left-arrow');
+  const rightArrow = document.querySelector('.right-arrow');
+
+  const scrollAmount = window.innerWidth; // scroll by one full screen
+
+  leftArrow.addEventListener('click', () => {
+    wrapper.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+  });
+
+  rightArrow.addEventListener('click', () => {
+    wrapper.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+  });
 </script>
 </html>
