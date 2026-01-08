@@ -26,18 +26,19 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 15px 40px;
+  padding: 0 40px;
   background: rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
   font-family: 'TT_Norms_DB', sans-serif;
+  min-height: 40px;
 }
 
 .logo img{
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .nav-links {
