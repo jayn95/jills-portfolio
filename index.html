@@ -198,6 +198,14 @@
                 an intuitive, user-friendly interface that enables users to express needs, emotions,
                 and thoughts through visual and interactive elements.
               </p>
+              <br>
+              <a
+                href="https://youtu.be/tu2YY0QbAFg"
+                target="_blank"
+                class="demo-btn"
+              >
+                🎥 Watch Demo
+              </a>
             </div>
             <div class="project1">
               <div class="p2-mid"><img src="assets/projects/tinig2.png" alt="Tinig Screenshot 2"></div>
@@ -379,6 +387,17 @@ machines.
     <p>&copy; 2026 Jill Navarra. All rights reserved.</p>
   </footer>
 
+  <div id="demoModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeDemo()">&times;</span>
+
+      <iframe
+        id="demoFrame"
+        title="Project Demo"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
 </body>
 
 <script>
@@ -414,5 +433,20 @@ machines.
   rightArrow.addEventListener('click', () => {
     wrapper.scrollBy({ left: scrollAmount, behavior: 'smooth' });
   });
+  function openDemo(videoId) {
+    const modal = document.getElementById("demoModal");
+    const frame = document.getElementById("demoFrame");
+
+    frame.src = "https://www.youtube.com/embed/" + videoId;
+    modal.style.display = "block";
+  }
+
+  function closeDemo() {
+    const modal = document.getElementById("demoModal");
+    const frame = document.getElementById("demoFrame");
+
+    modal.style.display = "none";
+    frame.src = ""; // stop video
+  }
 </script>
 </html>
