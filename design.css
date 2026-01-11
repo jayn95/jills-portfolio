@@ -536,6 +536,74 @@ footer {
   background: #6fc1ff;
 }
 
+.demo-btn2 {
+  background: #c06eff;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.demo-btn2:hover {
+  background: #ee6eff;
+}
+
+.demo-btn3 {
+  background: #00d5b2;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.demo-btn3:hover {
+  background: #57ffe3;
+}
+
+.demo-btn4 {
+  background: #00abda;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.demo-btn4:hover {
+  background: #5bd9fb;
+}
+
+.demo-btn5 {
+  background: #00bb60;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  color: #000;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.demo-btn5:hover {
+  background: #33f698;
+}
+
 .modal {
   display: none;
   position: fixed;
